@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Which layer of the Earth is made of iron and nickel?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77y-gq-7zX">
-                                <rect key="frame" x="64" y="269" width="640" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Which layer of the Earth is made of solid iron and nickel?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77y-gq-7zX">
+                                <rect key="frame" x="64" y="269" width="676" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="640" id="0Se-LC-iml"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="640" id="9X1-53-FSe"/>
@@ -141,11 +141,14 @@
                         <outlet property="button3point5" destination="hNG-mC-joT" id="C0E-Bm-FXg"/>
                         <outlet property="button4point5" destination="EEd-KY-RpL" id="qkW-P3-lUQ"/>
                         <outlet property="labelodeo" destination="drF-KA-kbw" id="JDB-I5-Ehx"/>
+                        <outlet property="question1" destination="77y-gq-7zX" id="pVr-2h-rpO"/>
+                        <outlet property="questionnumber" destination="UKg-VK-Jzq" id="HBk-WU-tnE"/>
+                        <outlet property="topheading" destination="Bo9-7X-C3o" id="b7C-Tn-cFa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-98.4375" y="123.63281249999999"/>
+            <point key="canvasLocation" x="-59" y="54"/>
         </scene>
     </scenes>
 </document>

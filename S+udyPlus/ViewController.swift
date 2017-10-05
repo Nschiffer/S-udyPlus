@@ -10,18 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+            var questions = ["Which layer is made of the Earth is made of solid iron and nickel?","What layer of the earth is liquid?", "What are the three types of rocks?", "What type of rock is made from sediments?", "What type of rock is made from magma?", "What is a light colored igneous rock thatis found in continental crust?", "What is the lithosphere?", "What is the asthenosphere?", "What is Pangaea?", "Who thought of the continental drift theory?", "What is a seismic wave?" ]
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         labelodeo.text = "Click one!"
-
+        questions.text = [0]
 }
   
+    @IBOutlet weak var questionnumber: UILabel!
+    @IBOutlet weak var question1: UILabel!
+    @IBOutlet weak var topheading: UILabel!
+    
 
     @IBOutlet weak var labelodeo: UILabel!
    
     @IBAction func button1(_ sender: Any) {
         labelodeo.text = "Oopsie daisie! That's incorrect"
-    
+
+        
+
     }
     
     @IBOutlet weak var button1point5: UIButton!
@@ -47,7 +57,7 @@ class ViewController: UIViewController {
     }
 }
 
-var questions = ["What layer of the earth is liquid?", "What are the three types of rocks?", "What type of rock is made from sediments?", "What type of rock is made from magma?", "What is a light colored igneous rock thatis found in continental crust?", "What is the lithosphere?", "What is the asthenosphere?", "What is Pangaea?", "Who thought of the continental drift theory?", "What is a seismic wave?" ]
+/*var questions = ["Which layer is made of the Earth is made of solid iron and nickel?","What layer of the earth is liquid?", "What are the three types of rocks?", "What type of rock is made from sediments?", "What type of rock is made from magma?", "What is a light colored igneous rock thatis found in continental crust?", "What is the lithosphere?", "What is the asthenosphere?", "What is Pangaea?", "Who thought of the continental drift theory?", "What is a seismic wave?" ]*/
 
 
 
