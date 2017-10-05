@@ -12,16 +12,24 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        labelodeo.text = "My name is Jeffbob!"
+        labelodeo.text = "Click one!"
 
 }
-    
+  
 
     @IBOutlet weak var labelodeo: UILabel!
    
     @IBAction func button1(_ sender: Any) {
-        labelodeo.text = "Oops! That is incorrect."
+        labelodeo.text = "Oopsie daisie! That's incorrect"
+    
     }
+    
+    @IBOutlet weak var button1point5: UIButton!
+    
+    @IBAction func nextbutton(_ sender: Any) {
+        
+    }
+    
     
     @IBAction func button3(_ sender: Any) {
         labelodeo.text = "Thats incorrect!"

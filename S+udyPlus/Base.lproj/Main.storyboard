@@ -107,6 +107,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ov-Tc-UdG">
+                                <rect key="frame" x="522" y="909" width="226" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2745288756" green="0.690960978" blue="0.039480003819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="31"/>
+                                <state key="normal" title="Next Question">
+                                    <color key="titleColor" red="0.26372650349999999" green="0.18882623570000001" blue="0.690960978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2P4-RS-caf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.33305177077898107" green="1" blue="0.86461806622925186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -124,6 +136,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button1point5" destination="DuJ-UC-MEb" id="qtU-t4-xi3"/>
                         <outlet property="labelodeo" destination="drF-KA-kbw" id="JDB-I5-Ehx"/>
                     </connections>
                 </viewController>
