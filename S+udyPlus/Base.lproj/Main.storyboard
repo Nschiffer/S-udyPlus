@@ -136,7 +136,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buton2point5" destination="sKs-Ki-LEH" id="HUL-bD-0cR"/>
                         <outlet property="button1point5" destination="DuJ-UC-MEb" id="qtU-t4-xi3"/>
+                        <outlet property="button3point5" destination="hNG-mC-joT" id="C0E-Bm-FXg"/>
+                        <outlet property="button4point5" destination="EEd-KY-RpL" id="qkW-P3-lUQ"/>
                         <outlet property="labelodeo" destination="drF-KA-kbw" id="JDB-I5-Ehx"/>
                     </connections>
                 </viewController>

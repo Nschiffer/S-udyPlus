@@ -25,6 +25,9 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var button1point5: UIButton!
+    @IBOutlet weak var buton2point5: UIButton!
+    @IBOutlet weak var button3point5: UIButton!
+    @IBOutlet weak var button4point5: UIButton!
     
     @IBAction func nextbutton(_ sender: Any) {
         
