@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         labelodeo.text = "Click one!"
-        questions.text = [0]
+        question1.text = questions[0]
 }
   
     @IBOutlet weak var questionnumber: UILabel!
