@@ -10,14 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-            var questions = ["Which layer is made of the Earth is made of solid iron and nickel?","What layer of the earth is liquid?", "What are the three types of rocks?", "What type of rock is made from sediments?", "What type of rock is made from magma?", "What is a light colored igneous rock thatis found in continental crust?", "What is the lithosphere?", "What is the asthenosphere?", "What is Pangaea?", "Who thought of the continental drift theory?", "What is a seismic wave?" ]
+            var questions = ["Which layer is made of the Earth is made of solid iron and nickel?","What layer of the earth is liquid?", "What are the three types of rocks?", "What type of rock is made from sediments?", "What type of rock is made from magma?", "What is a light colored igneous rock that is found in continental crust?", "What is the lithosphere?", "What is the asthenosphere?", "What is Pangaea?", "Who thought of the continental drift theory?", "What is a seismic wave?" ]
     
-    
-    
+    var answers = [["Mantle", "Inner core", "outer core", "crust"]]
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         labelodeo.text = "Click one!"
         question1.text = questions[0]
+        print(answers[0])
 }
   
     @IBOutlet weak var questionnumber: UILabel!
