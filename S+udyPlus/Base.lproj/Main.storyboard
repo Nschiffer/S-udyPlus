@@ -43,10 +43,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DuJ-UC-MEb">
-                                <rect key="frame" x="219" y="341" width="370" height="103"/>
+                                <rect key="frame" x="64" y="341" width="640" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.26372650349999999" green="0.18882623570000001" blue="0.690960978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="46"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
                                 <state key="normal" title="Mantle">
                                     <color key="titleColor" red="0.2745288756" green="0.690960978" blue="0.039480003819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -55,10 +55,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKs-Ki-LEH">
-                                <rect key="frame" x="219" y="452" width="370" height="104"/>
+                                <rect key="frame" x="64" y="452" width="640" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.26372650349999999" green="0.18882623570000001" blue="0.690960978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="46"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
                                 <state key="normal" title="Inner Core">
                                     <color key="titleColor" red="0.2745288756" green="0.690960978" blue="0.039480003819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -66,23 +66,11 @@
                                     <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lnC-H0-R9f"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNG-mC-joT">
-                                <rect key="frame" x="219" y="564" width="370" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.26372650349999999" green="0.18882623570000001" blue="0.690960978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="46"/>
-                                <state key="normal" title="Crust">
-                                    <color key="titleColor" red="0.2745288756" green="0.690960978" blue="0.039480003819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hbi-yG-qPJ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEd-KY-RpL">
-                                <rect key="frame" x="219" y="675" width="370" height="108"/>
+                                <rect key="frame" x="64" y="675" width="640" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.26372650349999999" green="0.18882623570000001" blue="0.690960978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="46"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
                                 <state key="normal" title="Outer Core">
                                     <color key="titleColor" red="0.2745288756" green="0.690960978" blue="0.039480003819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -115,6 +103,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNG-mC-joT">
+                                <rect key="frame" x="64" y="564" width="640" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.26372650349999999" green="0.18882623570000001" blue="0.690960978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
+                                <state key="normal" title="Crust">
+                                    <color key="titleColor" red="0.2745288756" green="0.690960978" blue="0.039480003819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hbi-yG-qPJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.33305177077898107" green="1" blue="0.86461806622925186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
