@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var answers = [["Mantle", "Inner core", "outer core", "crust"],["Mantle", "outer core", "inner core", "crust"],["metamorphic, igneous, sedimentary", "limestone, granite, basalt","quartz, stone, yellowstone", "solid, liquid, gas"],["Metamorphic rock","Igneous rock","Asteroids","Sedimentary rock"],["limestone", "Pangaea","igneous rock", "schist"],["granite","obsidian", "breccia","gneiss"],["the sphere that surrounds earth and protect all living things", "a species of endangered animals", "the uppermost part of the mantle and crust","a shape"],["the part of the earth that the lithosphere floats on","a shape", "the shere around the earth that protects all living organisms","a shoe brand"],["a famous rock band","the landmass of all the continents connected 200 million years ago","an endangered animal species", "a newly discovered planet"], ["Esther Bunnie","Alfred Deerfield","Mary Wedge","Alfred Wegener"],["the effect from a volcano","the effect from an earthquake","a radioactive wave","a huge ocean wave"]]
     
    
-    var questionNumber = 3
+    var questionNumber = 0
     
    var correctAnswer = [1,1,0,3,2,0,2,0,1,3,1]
 
@@ -73,10 +73,10 @@ class ViewController: UIViewController {
              This will cycle through the questions. If the question number is lower than the length of the array, increase questionNumber by one then call the displayNumber function. If it's not, reset it back to 0 and call the displayNumber function.
          */
         if (questionNumber < questions.count - 1) {
-            //TODO
+            questionNumber += 1
         }
         else {
-            //TODO
+            displayQuestion()
         }
     }
     
@@ -89,7 +89,7 @@ class ViewController: UIViewController {
         buton2point5.setTitle(answers[questionNumber][1], for: .normal)
         button3point5.setTitle(answers[questionNumber][2], for: .normal)
         button4point5.setTitle(answers[questionNumber][3], for: .normal)
-        /*TODO #1
+        /*TODO #
          Finish setting the titles for the other 3 answer buttons. When you have done this, play with the questionNumber variable to make sure it displays all of the questions.
         */
     }
