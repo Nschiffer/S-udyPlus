@@ -20,13 +20,13 @@ class ViewController: UIViewController {
     
    var correctAnswer = [1,1,0,3,2,0,2,0,1,3,1]
 
-    
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         labelodeo.text = "Click one!"
         displayQuestion()
+        
 }
   
     @IBOutlet weak var questionnumber: UILabel!
@@ -76,13 +76,15 @@ class ViewController: UIViewController {
             questionNumber += 1
         }
         else {
-            displayQuestion()
+            questionNumber = 0
         }
+        displayQuestion()
+        
     }
     
 
     
-    //This function displays all of the questions. It takes an arugment saying what the question number is.
+    //This function displays all of the questions. .
     func displayQuestion() {
         question1.text = questions[questionNumber]
         button1point5.setTitle(answers[questionNumber][0], for: .normal)
@@ -96,8 +98,14 @@ class ViewController: UIViewController {
     
     //TODO #4 - Finish the checkAnswer function. First complete the function calls in the buttons above. Then create an if then statement that checks the buttonNumber against correctAnswer array.
     func checkAnswer(buttonNumber: Int) {
-        print(buttonNumber)
-        //TODO
+        
+        /*if buttonNumber == correctAnswer{
+        labelodeo.text  = "Correct!"
+        
+        }
+        else {
+            labelodeo.text  = "Incorrect!"
+        */
     }
     
 }

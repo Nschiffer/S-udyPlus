@@ -46,7 +46,7 @@
                                 <rect key="frame" x="64" y="341" width="640" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.26372650349999999" green="0.18882623570000001" blue="0.690960978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="34"/>
                                 <state key="normal" title="Mantle">
                                     <color key="titleColor" red="0.2745288756" green="0.690960978" blue="0.039480003819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
