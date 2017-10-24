@@ -18,7 +18,7 @@ class ViewController: UIViewController {
    
     var questionNumber = 0
     
-   var correctAnswer = [1,1,0,3,2,0,2,0,1,3,1]
+    var correctAnswer = [1,1,0,3,2,0,2,0,1,3,1]
 
 
     
@@ -99,20 +99,19 @@ class ViewController: UIViewController {
     //TODO #4 - Finish the checkAnswer function. First complete the function calls in the buttons above. Then create an if then statement that checks the buttonNumber against correctAnswer array.
     func checkAnswer(buttonNumber: Int) {
         
-        /*if buttonNumber == correctAnswer{
+    if buttonNumber == correctAnswer[questionNumber]{
         labelodeo.text  = "Correct!"
         
-        }
-        else {
-            labelodeo.text  = "Incorrect!"
-        */
     }
-    
+    else {
+            labelodeo.text  = "Incorrect!"
+        
 }
 
 
+}
 
-
+}
 
 
 
